@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'flatButton.dart';
 
-// flatbutton has been removed from flutter, but this lesson depends on flatbutton, so when Angela tells you to use flatbutton
+// flatbutton has been removed from flutter, but this lesson depends on flatbutton,
 // if you type FlatButton, you will get an error saying it's deprecated and no longer a part of flutter
 // so i created a new flatbutton, so you can follow along with her
 // so when she asks you to use flatbutton, you can simply type 'FlatButtom' with an m
