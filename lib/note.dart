@@ -37,3 +37,46 @@ void main(){
 }
 
  */
+//! Function as a output
+/*
+double piCal(){ //!Disini kita membuat function sebagai output dengan memberi tipe data pada functionnya
+  double pi = 3.14;
+  return pi *2; //?Disini kita melakukan return terhadap hasil dari function tersebut
+}
+
+void main(){
+double result = piCal(); //?Kita memanggil hasil dari function tersebut dengan memberikan wadah untuk hasil tersebut
+  print(result);
+}
+
+*/
+
+//! Combination Function as Input and Output
+/* //!Challenge: Without changing the main() function, can you make this code work and get the result printed in the console?
+
+int add({required int n1, required int n2}){
+  return n1 + n2;
+}
+
+int multiply(int n1, int n2){
+  return n1 * n2 ;
+}
+
+void main() {
+  
+ int step1Result = add(n1: 5, n2: 9);
+  
+ int step2Result = multiply(step1Result, 5);
+  
+ double finalResult = step2Result / 3;
+  
+ print(finalResult);
+  
+}
+
+
+
+
+
+
+ */
