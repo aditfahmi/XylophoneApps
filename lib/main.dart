@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
-import 'dart:math';
 
 void main() => runApp(const XylophoneApp());
 
@@ -32,9 +31,11 @@ class XylophoneApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
+          backgroundColor: Colors.transparent,
           title: Text('Touch Me'),
           centerTitle: true,
         ),
